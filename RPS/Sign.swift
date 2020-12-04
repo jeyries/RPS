@@ -35,7 +35,7 @@ enum Sign {
         }
     }
     
-    func gameState(againt opponentSign: Sign) -> GameState {
+    func gameState(against opponentSign: Sign) -> GameState {
         if opponentSign == self {
             return .draw
         }
