@@ -13,6 +13,8 @@
 		855DD637257A3EF800F7768E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855DD635257A3EF800F7768E /* Main.storyboard */; };
 		855DD639257A3EF800F7768E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855DD638257A3EF800F7768E /* Assets.xcassets */; };
 		855DD63C257A3EF800F7768E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855DD63A257A3EF800F7768E /* LaunchScreen.storyboard */; };
+		F983C2C7257A4D9E00962246 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = F983C2C6257A4D9E00962246 /* Sign.swift */; };
+		F983C2CA257A4F4600962246 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F983C2C9257A4F4600962246 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		855DD638257A3EF800F7768E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		855DD63B257A3EF800F7768E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		855DD63D257A3EF800F7768E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F983C2C6257A4D9E00962246 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		F983C2C9257A4F4600962246 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				855DD638257A3EF800F7768E /* Assets.xcassets */,
 				855DD63A257A3EF800F7768E /* LaunchScreen.storyboard */,
 				855DD63D257A3EF800F7768E /* Info.plist */,
+				F983C2C6257A4D9E00962246 /* Sign.swift */,
+				F983C2C9257A4F4600962246 /* GameState.swift */,
 			);
 			path = RPS;
 			sourceTree = "<group>";
@@ -94,7 +100,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Matthew Hanlon";
 				TargetAttributes = {
 					855DD62B257A3EF800F7768E = {
@@ -140,6 +146,8 @@
 			files = (
 				855DD634257A3EF800F7768E /* ViewController.swift in Sources */,
 				855DD630257A3EF800F7768E /* AppDelegate.swift in Sources */,
+				F983C2CA257A4F4600962246 /* GameState.swift in Sources */,
+				F983C2C7257A4D9E00962246 /* Sign.swift in Sources */,
 				855DD632257A3EF800F7768E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +200,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +261,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
